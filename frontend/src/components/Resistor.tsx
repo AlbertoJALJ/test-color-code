@@ -54,7 +54,7 @@ const Resistor: React.FC<ResistorProps> = ({ bandColors, value, tolerance }) => 
             top:"70px",
             left:"80px"
           }}>Valor:</Typography>
-          <h4>{value} &#8486; tolerance: {tolerance}</h4>
+          <h4>{value} &#8486;, ± %{tolerance}</h4>
         </>
       )}
     </div>
